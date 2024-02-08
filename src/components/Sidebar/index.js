@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
-import './index.scss'
+import './style.scss'
 import LogoH from '../../assets/images/profile.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

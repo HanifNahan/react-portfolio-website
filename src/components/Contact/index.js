@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
+import './style.scss'
 import emailjs from '@emailjs/browser'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
@@ -19,7 +19,7 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'service_45a2p1d',
+                'service_mu6vjsk',
                 'template_rjbmwpb',
                 form.current,
                 'MguoG6b9sT-9caDTO'

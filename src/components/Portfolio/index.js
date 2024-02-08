@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
-import './index.scss'
+import './style.scss'
 import portfolioData from '../../data/portfolio.json'
 
 const Portfolio = () => {
