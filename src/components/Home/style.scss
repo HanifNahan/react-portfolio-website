@@ -78,15 +78,18 @@
       color: #333;
     }
   }
+}
 
-  @keyframes fadeInFromLeft {
-    from {
-      opacity: 0;
-      transform: translateX(-20px); /* Move 20px to the left */
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0); /* Move back to original position */
-    }
+@keyframes fadeInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+    /* Move 20px to the left */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    /* Move back to original position */
   }
 }
