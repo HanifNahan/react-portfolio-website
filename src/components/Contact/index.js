@@ -74,18 +74,17 @@ const Contact = () => {
                 </div>
                 <div className='info-map'>
                     Muhammad Hanif Bin Ahmad Nahan, <br/>
-                    Kampung Sri Sepakat Titi Tinggi, <br/>
-                    02100 Padang Besar, Perlis. <br/>
+                    Padang Besar, Perlis. <br/>
                     <span>muhammad.hanif.mh639@gmail.com</span>
                 </div>
                 <div className='info-map'>
 
                 </div>
                 <div className='map-wrap'>
-                    <MapContainer center={[6.641428361993003,100.2573604464254]} zoom={13}>
+                    <MapContainer center={[6.59869284733543, 100.21327933418283]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[6.641428361993003,100.2573604464254]}>
-                        <Popup>I lives here, a beautiful and peace village:)</Popup>
+                        <Marker position={[6.59869284733543, 100.21327933418283]}>
+                        <Popup>Come and let's have a cup of coffee</Popup>
                         </Marker>
                     </MapContainer>
                 </div>
