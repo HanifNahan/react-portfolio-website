@@ -9,8 +9,8 @@ import Logo from './Logo';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ' Hanif'.split('')
-    const jobArray = "I'm a".split('')
-    const devArray = 'Software Developer'.split('')
+    // const jobArray = "I'm a".split('')
+    const devArray = 'A Software Developer'.split('')
 
     useEffect(() => {
         return () => setTimeout(() => {
@@ -35,12 +35,12 @@ const Home = () => {
                         idx={15}
                     />
                     <br />
-                    <AnimatedLetters
+                    {/* <AnimatedLetters
                         letterClass={letterClass}
                         strArray={jobArray}
                         idx={20}
                     />
-                    <br />
+                    <br /> */}
                     <AnimatedLetters
                         letterClass={letterClass}
                         strArray={devArray}

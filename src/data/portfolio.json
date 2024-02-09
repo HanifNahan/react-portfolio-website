@@ -1,34 +1,34 @@
 {
   "portfolio": [
       {
-          "cover": "/portfolio/1/one.jpeg",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "url": "http://google.com"
+          "cover": "/portfolio/5/5.png",
+          "title": "Fruit Ninja Platformer",
+          "description": "Unity, Adobe Illustrator",
+          "url": "https://www.youtube.com/watch?v=hStOURq83m4"
       },
       {
-          "cover": "/portfolio/1/one.jpeg",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "url": "http://google.com"
+          "cover": "/portfolio/4/4.png",
+          "title": "Flappy Bird in First Person View",
+          "description": "Unreal Engine",
+          "url": "https://www.youtube.com/watch?v=padb-qcUW0A"
       },
       {
-          "cover": "/portfolio/1/one.jpeg",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "url": "http://google.com"
+          "cover": "/portfolio/1/1.png",
+          "title": "Portfolio Website",
+          "description": "HTML, CSS, JavaScript",
+          "url": "https://github.com/HanifNahan/portfolio-website"
       },
       {
-          "cover": "/portfolio/1/one.jpeg",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "url": "http://google.com"
+          "cover": "/portfolio/2/2.png",
+          "title": "Number Prediction with CNN",
+          "description": "Python, TensorFlow, TKinter",
+          "url": "https://github.com/HanifNahan/handwritten-digit-classification"
       },
       {
-          "cover": "/portfolio/1/one.jpeg",
-          "title": "GGWP",
-          "description": "React, JSX, Tailwind, Jest",
-          "url": "http://google.com"
+          "cover": "/portfolio/3/3.jpg",
+          "title": "Reinforcement Learning Mario",
+          "description": "Python, OpenAI Gym, NesPy",
+          "url": "https://github.com/HanifNahan/RL-Mario"
       }
   ]
 }

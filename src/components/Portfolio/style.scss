@@ -20,11 +20,11 @@
 
   .image-box {
     position: relative;
-    flex: 1 1 20%;
-    height: 400px;
+    height: 200px;
+    width: 300px;
     overflow: hidden;
     border-radius: 10px;
-    max-width: calc(25% - 10px);
+    max-width: calc(33% - 10px);
     animation: fadeInFromLeft 1s linear both;
     animation-delay: 1.4s;
 
@@ -56,7 +56,7 @@
       position: absolute;
       width: 100%;
       z-index: 3;
-      padding: 10px 20px;
+      padding: 10px 10px;
       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
       background: linear-gradient(180deg,
           rgba(0, 0, 0, 0.2) 0,
@@ -67,8 +67,9 @@
     .title {
       margin-bottom: 0;
       margin-top: 0;
+      margin-right: 20px;
       color: #fff;
-      font-size: 24px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 24px;
     }
