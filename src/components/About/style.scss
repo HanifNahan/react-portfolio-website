@@ -16,7 +16,7 @@
   animation-duration: 12s;
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
-  margin-left: calc(50% - 100px);
+  margin-left: calc(#{50%} - 100px);
 
   div {
     position: absolute;

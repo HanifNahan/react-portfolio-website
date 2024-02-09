@@ -6,6 +6,10 @@ import emailjs from '@emailjs/browser'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const Contact = () => {
+    const serviceId = process.env.REACT_APP_SERVICE_ID
+    const templateId = process.env.REACT_APP_TEMPLATE_ID
+    const publicKey = process.env.REACT_APP_PUBLIC_KEY
+
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
     useEffect(() => {
@@ -19,10 +23,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'service_mu6vjsk',
-                'template_rjbmwpb',
+                serviceId,
+                templateId,
                 form.current,
-                'MguoG6b9sT-9caDTO'
+                publicKey,
             )
             .then(
                 () => {
